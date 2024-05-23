@@ -1,0 +1,366 @@
+/* Set the background image and style the body */
+body {
+  background: url('https://img.freepik.com/free-photo/thick-twirling-smoke-pattern-corner-black-background_23-2148092641.jpg?t=st=1716371922~exp=1716375522~hmac=b2f019f276a7138b4de479cebc4470d3b1c37c6d145a5e6d0454fc4126909abd&w=360') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #f5f5f5;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  min-height: 75px;
+  padding: 0px 20px;
+  width: 100%;
+  align-items: center;
+  background: rgba(0, 0, 0); /*background */
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  height: 100px;
+  width: auto;
+
+}
+
+#logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  margin-right: 50px;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#nav-bar > ul > li > a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+#nav-bar > ul > li > a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.form {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #16a085;
+}
+
+
+.container-1 {
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+  background: red;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.container-1 section .info{
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info .icon {
+  flex: 0 0 30%;
+  margin-right: 5px; /* Add margin for separation */
+}
+
+.info .icon img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.info .exp {
+  flex: 1; /* Allow the text to take up remaining space */
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info .text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container-2 {
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+  background: red;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+#quality_control{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#quality_control > iframe{
+  max-width: 560px;
+  width: 100%;
+}
+
+.container-3 {
+  display: flex; /* Align price tags as a row */
+  justify-content: center; /* Center-align the row */
+  flex-wrap: wrap; /* Allow wrapping of price tags */
+  margin: 50px auto;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
+  padding: 20px; /* Add padding around the row */
+}
+
+.service {
+  background: #ffffff; /* Background color */
+  border: 2px solid #1abc9c; /* Border color */
+  color: #000000; /* Text color */
+  padding: 5px 20px; /* Padding around content */
+  margin: 0 10px 20px; /* Spacing between price tags */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  max-width: 200px; /* Maximum width of the price tag */
+  text-align: center; /* Center-align text */
+}
+
+.service h2 {
+  font-size: 20px; /* Heading font size */
+  margin-bottom: 10px; /* Spacing below heading */
+  background: grey;
+}
+
+.service p {
+  font-size: 16px; /* Paragraph font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+.service .price {
+  font-size: 24px; /* Price font size */
+  font-weight: bold; /* Bold font for emphasis */
+  margin-top: 10px; /* Spacing above price */
+}
+
+.service .duration {
+  font-size: 14px; /* Duration font size */
+  margin-top: 5px; /* Spacing above duration */
+}
+.btn{
+  margin: 15px 0;
+  background-color: black;
+  color: white;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+footer{
+  display: block;
+  background: #222222;
+  color: white;
+  margin: 20px 0 0 0;
+  padding: 20px;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+footer > ul > li {
+    padding: 0 10px;
+    list-style-type: none; /* Remove list bullets */
+}
+footer > ul > li >a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+footer > ul > li >a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+span{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  header {
+    padding: 10px;
+  }
+
+  #header-img {
+    height: 80px;
+  }
+
+  #logo-text {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .form {
+    max-width: 80%;
+  }
+
+  .service {
+    max-width: 150px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* Adjust styles for smaller screens here */
+  header {
+    padding: 5px;
+  }
+
+  #header-img {
+    height: 60px;
+  }
+
+  #logo-text {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .form {
+    max-width: 90%;
+  }
+
+  .service {
+    max-width: 120px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Adjust styles for medium-sized screens here */
+  header {
+    padding: 10px;
+  }
+
+  #header-img {
+    height: 80px;
+  }
+
+  #logo-text {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .form {
+    max-width: 80%;
+  }
+
+  .service {
+    max-width: 150px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust styles for larger screens here */
+  header {
+    padding: 15px;
+  }
+
+  #header-img {
+    height: 90px;
+  }
+
+  #logo-text {
+    font-size: 22px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .form {
+    max-width: 70%;
+  }
+
+  .service {
+    max-width: 170px;
+  }
+}
